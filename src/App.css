@@ -31,3 +31,20 @@
     transform: rotate(360deg);
   }
 }
+
+.pod {
+  display: flex;
+  width: 80%;
+  padding: 0 9% 2% 9%;
+}
+
+.desc {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  padding: 0 9% 1% 9%;
+}
+
+.picture-title {
+  margin-top: 4%;
+}

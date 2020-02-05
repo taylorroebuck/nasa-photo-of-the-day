@@ -23,7 +23,7 @@ function PictureList() {
 
     return(
         <div className="picture">
-<h2>Title: {title}</h2>
+                    <h2 className="picture-title">{title}</h2>
                     <PictureCard 
                     mediaSRC={pictures} description={description}
 
