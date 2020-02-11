@@ -8,7 +8,6 @@ import styled from "styled-components";
 
 const LogoContainer = styled.div`
   width: 30%;
-
   background: #0b3d91;
 `;
 
