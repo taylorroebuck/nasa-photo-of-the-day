@@ -8,8 +8,11 @@ import styled from "styled-components";
 
 const LogoContainer = styled.div`
   width: 30%;
-
   background: #0b3d91;
+`;
+
+const Heading = styled.h1`
+  color: white;
 `;
 
 function App() {
@@ -34,7 +37,7 @@ function App() {
       <LogoContainer>
         <img src="https://www.nasa.gov/sites/default/files/thumbnails/image/s75-31690.jpeg" width="20%" alt="Nasa logo" />
       </LogoContainer>
-      <h1>NASA Photo Of The Day</h1>
+      <Heading>NASA Photo Of The Day</Heading>
       <Date date={date} setDate={setDate} nasaData={nasaData} setNasaData={setNasaData} />
       <Title nasaData={nasaData} />
       <Image nasaData={nasaData} />
